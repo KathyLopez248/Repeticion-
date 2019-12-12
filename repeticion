@@ -1,0 +1,21 @@
+import java.util.Scanner;
+{
+public static void main (String arhs[])
+{
+Scanner F = new Scanner (System.in);
+char S [];
+S = new char [8];
+
+for (int i=0;i<8;i++)
+{
+System.out.println("Introduce una letra");
+S[i] = F.Next().charAt(0);
+}
+System.out.println("La palabra es");
+
+for (int i=0:i<8;i++)
+{
+System.out.print(S[i]);
+}
+}
+}
